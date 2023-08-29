@@ -50,7 +50,7 @@ const Client = ({ client }) => {
             <th className='w-1/2 text-center'>{client.Name}</th>
             <th className={`w-1/4 priorty text-center 
 ${client.priority === "High" ? 'bg-red-200' : client.priority === "Medium" ? 'bg-yellow-200' : client.priority === "Low" ? "bg-green-200" : ''} `}>{client.priority}</th>
-            <th className='flex text-center  ml-20     gap-10'>
+            <th className='flex text-center  ml-16     gap-10'>
             <FiEdit onClick={() => { setOpenModalEdit(true) }} cursor={"pointer"} className='text-blue-500  text-xl' size={25} />
                 <Modal openModal={openModelEdit} setOpenModal={setOpenModalEdit}>
                     <form onSubmit={handleSubmitEditClient} method="dialog" className="modal-box">

@@ -1,11 +1,6 @@
 {
   "clients": [
     {
-      "id": "73eda484-c6c9-4c9e-ba68-e89df666f545",
-      "Name": "salma",
-      "priority": "Medium"
-    },
-    {
       "id": "2d628001-28d6-4ae7-92c8-485753e8655a",
       "Name": "egtfh",
       "priority": "Medium"
