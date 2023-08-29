@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { AiOutlinePlus } from "react-icons/ai"
 import { toast } from 'react-toastify';
 import Modal from './Model'
-import { addClient } from '@/api'
+import { addClient } from '@/api';
 import { useRouter } from "next/navigation";
 import { v4 as uuidv4 } from "uuid";
 const AddClient = () => {
